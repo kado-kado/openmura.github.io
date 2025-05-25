@@ -28,7 +28,6 @@ window.onload = function() {
             document.getElementById("agreeDate").innerHTML = localStorage.getItem("agreeDate");
         } else {
             alert("⚠️警告⚠️\n\nルールを確認していません。");
-            location.href = "rule.html";
         }
     }
 };
